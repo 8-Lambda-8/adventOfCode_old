@@ -5,7 +5,7 @@ import requests
 
 
 year = "2020"
-day = "05"
+day = "06"
 part = 2
 
 dayFolder = year + "/" + day + "/"
