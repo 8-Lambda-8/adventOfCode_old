@@ -11,3 +11,7 @@ def replaceCharAt(string, index, char):
 
 def compareTuple(minTup, maxTup, Tup):
     return minTup[0] < Tup[0] < maxTup[0] and minTup[1] < Tup[1] < maxTup[1]
+
+
+def lastIndexOf(searchList, val):
+    return len(searchList) - 1 - searchList[::-1].index(val)
