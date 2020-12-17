@@ -7,6 +7,7 @@ def run(part, path):
         # inputFile = inputFile[:-1]
         inputArray = inputFile.split('\n')
         # inputArray.remove("")
+        del inputFile
     startTime = time.time()
     if part == 1:
         print("Solution:", "noSolution")
