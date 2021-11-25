@@ -8,11 +8,11 @@ def run(part, path):
         inputArray = inputFile.split('\n')
         # inputArray.remove("")
         del inputFile
-    startTime = time.time()
+    startTime = time.perf_counter()
     if part == 1:
         print("Solution:", "noSolution")
 
     if part == 2:
         print("Solution:", "noSolution")
 
-    print("calculating Time: ", (time.time() - startTime))
+    print("calculating Time: ", (time.perf_counter() - startTime))
