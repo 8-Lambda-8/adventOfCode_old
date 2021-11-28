@@ -10,9 +10,14 @@ def run(part, path):
         del inputFile
     startTime = time.perf_counter()
     if part == 1:
-        print("Solution:", "noSolution")
+        print("Solution Part 1:", "noSolution")
 
     if part == 2:
-        print("Solution:", "noSolution")
+        print("Solution Part 2:", "noSolution")
 
     print("calculating Time: ", (time.perf_counter() - startTime))
+
+
+if __name__ == "__main__":
+    run(1, "input")
+    run(2, "input")
