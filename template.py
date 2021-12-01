@@ -7,6 +7,7 @@ def run(part, path):
         # inputFile = inputFile[:-1]
         inputArray = inputFile.split('\n')
         # inputArray.remove("")
+        # inputArray = list(map(int, inputArray)) //strings to int
         del inputFile
     startTime = time.perf_counter()
     if part == 1:
