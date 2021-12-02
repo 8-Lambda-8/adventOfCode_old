@@ -4,13 +4,13 @@ from shutil import copyfile
 import requests
 
 year = "2021"
-day = "1"
+day = "2"
 part = 1
 
 dayFolder = year + "/" + day + "/"
 dayModulePath = dayFolder+"day"+day+".py"
 inputFilePath = dayFolder + "input"
-url = "https://adventofcode.com/" + year + "/day/" + str(int(day)) + "/input"
+url = "https://adventofcode.com/" + year + "/day/" + day + "/input"
 
 if not os.path.isdir(year):
     os.mkdir(year)
