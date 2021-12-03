@@ -4,7 +4,7 @@ from shutil import copyfile
 import requests
 
 year = "2021"
-day = "2"
+day = "3"
 part = 1
 
 dayFolder = year + "/" + day + "/"
