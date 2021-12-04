@@ -9,6 +9,7 @@ part = 1
 
 dayFolder = year + "/" + day + "/"
 dayModulePath = dayFolder+"day"+day+".py"
+inputFilePath = dayFolder + "testInput"
 inputFilePath = dayFolder + "input"
 url = "https://adventofcode.com/" + year + "/day/" + day + "/input"
 
