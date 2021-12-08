@@ -16,7 +16,7 @@ def run(part, path):
     if part == 2:
         print("Solution Part 2:", "noSolution")
 
-    print("calculating Time: ", (time.perf_counter() - startTime) * 1000, "ms")
+    print("calculating Time: {:10.3f} ms ".format((time.perf_counter() - startTime) * 1000))
 
 
 if __name__ == "__main__":
